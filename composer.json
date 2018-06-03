@@ -1,0 +1,33 @@
+{
+    "name": "g3n1us/editor",
+    "type": "package",
+    "authors": [
+        {
+            "name": "Sean Bethel",
+            "email": "tech@americanmadeweb.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "G3n1us\\Editor\\": "src/"
+        },
+		"files": [
+			"src/helpers.php"
+		]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "G3n1us\\Editor\\ServiceProvider"
+            ],
+            "aliases": {
+                "Editor": "G3n1us\\Editor\\ServiceProvider"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

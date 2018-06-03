@@ -1,0 +1,29 @@
+.card{
+	box-shadow: 0px 13px 4px -8px #b5b5b5;
+}
+
+.card-img-top-wrapper{
+	align-self: center;
+	// display: inline-block;
+	@extend .embed-responsive !optional;
+	@extend .embed-responsive-1by1 !optional;
+	
+}
+.card-img-top-wrapper {
+	.cke_widget_image, img{
+		@extend .embed-responsive-item !optional;
+		object-fit: cover;
+	}
+	p{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+.card-header{
+	
+	p, *{
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}

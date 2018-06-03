@@ -1,0 +1,52 @@
+body.cke_editable{
+	padding: 20px;
+	display: block;
+}
+
+.cke_widget_selected, .cke_widget_focused{
+	outline: dotted 2px red !important;
+	border: dotted 2px blue;
+	z-index: 999;
+}
+
+.card-img-top-wrapper .cke_widget_drag_handler_container{
+	display: none !important;
+}
+.card-deck{
+	padding-top: 2rem;
+	min-height: 4rem;
+}
+.card-img-top-wrapper{
+	min-height: 100px;
+	min-width: 100px;
+	background-color: gray;
+}
+.card-img-top-wrapper:empty::before{
+	content: "Add an image here";
+	vertical-align: middle;
+	
+}
+
+.card-header > *{
+	margin-bottom: 0;
+}
+
+/*
+.cke_ltr .cke_button__templates_icon{
+	width: 100px !important;
+	color: purple;
+/* 	background: url(icons.png?t=320013d) no-repeat 0 -256px !important;	 */
+}
+*/
+/*
+hr{
+    border-top: 1px solid rgba(0, 0, 0, 0.7);
+}
+*/
+
+.text-warning{}
+.text-info{}
+.text-danger{}
+.text-primary{}
+.text-muted{}
+
