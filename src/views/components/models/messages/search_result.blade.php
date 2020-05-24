@@ -1,0 +1,1 @@
+<p><a href="{{route('messages.show', $message)}}">{{$message->subject}}</a></p>

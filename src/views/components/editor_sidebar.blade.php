@@ -1,4 +1,8 @@
 <style>
+.alert:empty{
+	display: none;
+}	
+	
 .cke_ltr .cke_button__templates_icon{
 	width: 100px !important;
 	color: #0000b6;

@@ -83,7 +83,7 @@
 			<div class="row tab-pane pt-2 justify-content-center" id="upload" role="tabpanel">
 			<form id="upload_form" class="mt-4" action="/editor_dashboard/upload" method="post" enctype="multipart/form-data">
   			<input type="file" multiple name="upload[]">
-  			{{csrf_field()}}
+  			@csrf
   			<input type="hidden" name="redirect" value="true">
   			<button class="btn btn-info">Submit</button>
 			</form>

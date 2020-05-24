@@ -1,4 +1,5 @@
 @verbatim
+
 <script type="text/template" id="checkout">
 	<div class="card shopping-cart-card my-2">
 		<div class="card-header">
@@ -72,15 +73,6 @@
 @endif
 	<script src="/vendor/g3n1us_editor/CORE_JS/_assets/theme/dist/js/public-compiled.js?v="></script>
 	
-<!--
-	<script src="/vendor/g3n1us_editor/CORE_JS/_assets/theme/node_modules/moment/moment.js?v="></script>
-	<script src="/vendor/g3n1us_editor/CORE_JS/_assets/theme/node_modules/fullcalendar/dist/fullcalendar.min.js?v="></script>
-	<script src="/vendor/g3n1us_editor/CORE_JS/_assets/theme/node_modules/fullcalendar/dist/gcal.js?v="></script>
-
-	
-	<script src="/vendor/g3n1us_editor/CORE_JS/_assets/theme/node_modules/push.js/push.js?v="></script>
-	<script src="/vendor/g3n1us_editor/CORE_JS/_assets/theme/node_modules/xlsx/dist/xlsx.full.min.js"></script>	
--->
 	<script src="/vendor/g3n1us_editor/CORE_JS/_assets/theme/js/jq_plugins.js?v="></script>
 	<script src="/vendor/g3n1us_editor/CORE_JS/_assets/theme/js/index.js?v="></script>
 	

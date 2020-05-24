@@ -17,7 +17,7 @@ class CreateEditorPageContentsTable extends Migration
           $table->increments('id');
           $table->integer('page_id');
           $table->integer('user_id');
-          $table->text('html');
+          $table->text('html')->nullable();
           $table->timestamps();
         });          
     }

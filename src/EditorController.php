@@ -7,7 +7,8 @@
   use Illuminate\Foundation\Validation\ValidatesRequests;
   use Illuminate\Foundation\Auth\Access\AuthorizesRequests; 
   
-  use G3n1us\Editor\File; 
+  use G3n1us\Editor\Models\File; 
+  use G3n1us\Editor\Models\Page; 
   
   class EditorController extends BaseController{
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
@@ -55,6 +56,7 @@
     
     public function routePage(Request $request, $page = '/'){
       $page = Page::where('path', $page)->firstOrFail();
+
       return response($page->display());
     }
   }

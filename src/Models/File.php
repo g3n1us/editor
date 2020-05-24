@@ -1,6 +1,6 @@
 <?php
   
-namespace G3n1us\Editor;
+namespace G3n1us\Editor\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

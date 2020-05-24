@@ -1,0 +1,1 @@
+<p><a href="{{$page->path}}">{{$page->title}}</a></p>

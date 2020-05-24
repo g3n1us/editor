@@ -16,7 +16,7 @@ class CreateEditorPagesTable extends Migration
         Schema::create('editor_pages', function (Blueprint $table) {
           $table->increments('id');
           $table->integer('parent_page_id')->nullable();
-          $table->integer('page_content_id');
+          $table->integer('page_content_id')->nullable();
           $table->string('title');
           $table->string('path');
           $table->json('metadata')->nullable();

@@ -25,7 +25,7 @@
 
 
 <script id="template--card_img_top" type="text/template" title="A Bootstrap Card with Top Image" data-required_class="card-img-top-widget" data-editables='[".card-img-top-wrapper", ".card-block"]'>
-<div class="card card-img-top-widget"><div class="card-img-top-wrapper"><img class="card-img-top align-self-center" src="http://lorempixel.com/800/800/nature/"></div><div class="card-block card-body"><p>More text here</p></div></div>
+<div class="card card-img-top-widget"><div class="card-img-top-wrapper"><img class="card-img-top align-self-center" src="/placeholder.png"></div><div class="card-block card-body"><p>More text here</p></div></div>
 </script>
 @endverbatim
 

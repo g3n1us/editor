@@ -1,0 +1,1 @@
+<p><a href="/dashboard/directory?query={{$person->first_name}} {{$person->last_name}}">{{$person->first_name}} {{$person->last_name}}</a></p>
